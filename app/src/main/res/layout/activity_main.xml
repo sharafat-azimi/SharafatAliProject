@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+   <TextView
+       android:layout_marginTop="10dp"
+       android:textSize="25sp"
+       android:textColor="@color/color_red"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/hello_world"
+       android:layout_gravity="center_horizontal"
+       android:gravity="center"
+       />
+ <ImageView
+     android:src="@drawable/done"
+     android:layout_gravity="center"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content" />
+    <EditText
+        android:textColor="@color/color_red"
+        android:id="@+id/editText_data"
+        android:hint="@string/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/operator"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        style="@style/StyleButtonCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_submit"
+        android:id="@+id/button_submit"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <Button
+        style="@style/StyleButtonCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_start_second_activity"
+        android:id="@+id/button_start_second_activity"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        style="@style/StyleButtonCenter"
+        android:text="@string/button_start_activity_for_result"
+        android:id="@+id/button_activity_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        style="@style/StyleButtonCenter.Small"
+        android:text="@string/on"
+        android:id="@+id/button_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+ <EditText
+     android:textColorHint="#d41fe4"
+     android:hint="Enter your text here!"
+     android:textColor="@color/colorAccent"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+</LinearLayout>

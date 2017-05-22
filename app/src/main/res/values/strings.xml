@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SharafatAliProject</string>
+    <string name="hello_world">Hello World</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="button_submit">Button Submit</string>
+    <string name="button_start_second_activity">Starat Second Activity</string>
+    <string name="button_start_activity_for_result">Starat Activity For Result</string>
+    <string name="edit_text">Enter your text here</string>
+</resources>

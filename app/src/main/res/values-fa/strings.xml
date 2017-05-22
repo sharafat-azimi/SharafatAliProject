@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">پروجکت شرافت</string>
+    <string name="hello_world">سلام به جهان</string>
+    <string name="on">روشن</string>
+    <string name="off">خاموش</string>
+    <string name="button_submit">بتن سبمیت</string>
+    <string name="button_start_second_activity">بتن استارت سکند اکتیویتی</string>
+    <string name="button_start_activity_for_result">بتن استارت ترد اکتیویتی</string>
+    <string name="edit_text">متن را اینجا وارد کنید</string>
+</resources>
